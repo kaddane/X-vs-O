@@ -53,7 +53,7 @@ function wenner(){
     else if(listId[3] == listId[5] && listId[5] == listId[7] && listId[5] != ""){
         end(3, 5, 7)
     }else if(listId[1] != "" && listId[2] != "" && listId[3] != "" && listId[4] != "" && listId[5] != "" && listId[6] != "" && listId[7] != "" && listId[8] != "" && listId[9] != ""){
-        title.innerHTML = "Draw ...";
+        title.innerHTML = "Draw";
         setTimeout(() => {
             location.reload()
         }, 3000);
